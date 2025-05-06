@@ -1,21 +1,12 @@
 package com.Minh.Message;
 
+import lombok.Data;
+
+@Data
 public class HelloMessage {
+String name;
 
-    private String name;
-
-    public HelloMessage() {
-    }
-
-    public HelloMessage(String name) {
-        this.name = name;
-    }
-
-    public String getName() {
+    public String getname() {
         return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 }
